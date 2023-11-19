@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @font-face {
+            font-family: minha fonte;
+            src: url(littlebird.ttf);
+        }
+
+        h2 {
+            font-weight: normal;
+        }
+
+        body {
+            font-size: 1.5em;
+        }
+
+        .one {
+            font-family: sans-serif;
+        }
+
+        .two {
+            font-family: 'Lobster', cursive;
+        }
+        .tree {
+            font-family: 'minha fonte', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fontes em CSS</h1>
+    <h2 class="one">Podemos configurar fontes padrão do sistema</p>
+    <h2 class="two">Ou então usar uma fonte do Google Fonts</p>
+    <h2 class="tree">Ou ainda usar um arquivo local de fontes</p>
+</body>
+
+</html>

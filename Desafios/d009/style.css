@@ -1,0 +1,92 @@
+div{
+    text-align: center;
+}
+.yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    margin: 2px;
+}
+.txt{
+    text-align: center;
+    font-size: 30px;
+    font-family: "sans-serif", sans-serif;
+}
+
+
+
+.title {
+    text-align: center;
+    font-family: "sans_serif", sans-serif;
+}
+.htmlyt {
+    text-align: center;
+}
+.htmltxt {
+    text-align: center;
+    font-family: sans-serif;
+}
+.center {
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.txt {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.jsyt {
+    text-align: center;
+}
+
+.tag {
+    text-align: center;
+}
+
+.jstxt {
+    text-align: center;
+    font-family: sans-serif;
+}
+.hdwrtitle {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.hdwryt {
+    text-align: center;
+}
+
+.hdwrvlt {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.voltar {
+    text-align: center;
+}
+.pythontitle {
+    text-align: center;
+    font-family: sans-serif;
+}
+.pythonyt {
+    text-align: center;
+
+}
+.pythonvlt {
+    text-align: center;
+    font-family: sans-serif;
+}
+.voltarpy{
+    text-align: center;
+}
+
+

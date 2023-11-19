@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexives</title>
+    <link rel="shortcut icon" href="rdiv.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <picture>
+        <source media="(max-width:750px)" srcset="img-p.jpg" type="image/png">
+        <source media="(max-width:1050px)" srcset="img-m.jpg" type="image/png">
+        <img src="img-g.jpg" alt="A imagem flexivel funciona">
+    </picture>
+    <h1>Manipulção de áudio</h1>
+    <audio preload="metadata" controls>
+        <source src="audioteste.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio <a href="audioteste.mp3" download="audioteste.mp3" type="audio/mpeg"></a></p>
+</body>
+</html>
