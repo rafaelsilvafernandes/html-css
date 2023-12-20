@@ -15,21 +15,21 @@
 </head>
 <body>
     <h1>Mexendo com Email e Telefone</h1>
-    <form method="get">
+    <form method="get" autocomplete="on">
 
         <fieldset>
             <legend>Dados Pessoais</legend>
             <p>
                 <label for="inome">Nome</label>
-                <input type="text" name="text" id="inome" required minlength="5" maxlength="30" placeholder="Seu nome">
+                <input type="text" name="text" id="inome" required minlength="5" maxlength="30" placeholder="Seu nome" autocomplete="name">
             </p>
             <p>
                 <label for="iemail">Email</label>
-                <input type="email" name="email" id="iemail" required placeholder="seuemail@gmail.com">
+                <input type="email" name="email" id="iemail" required placeholder="seuemail@gmail.com" autocomplete="email">
             </p>
             <p>
                 <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx">
+                <input type="tel" name="tel" id="itel" required placeholder="(xx) xxxxx-xxxx" autocomplete="tel">
             </p>
         </fieldset>
         <p>
