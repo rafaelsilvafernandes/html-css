@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Usando Color, Range e File</h1>
+    <form method="post">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#ff0000">
+        </p>
+        <p>
+            <label for="niv">Nível de Satisfação: </label>
+            <input type="range" id="iniv" name="niv" min="0" max="2">
+            <!-- pode usar MIN/MAX para determinar o máximo e o mínimo -->
+        </p>
+        <p>
+            <label for="ifile">Foto de Perfil: </label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
