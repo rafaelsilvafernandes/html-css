@@ -1,0 +1,7 @@
+body {
+    background-image: url(../imagens/back-pc.jpg);
+}
+
+#pc {display: inline;}
+#tablet {display: none;}
+#celular {display: none;}

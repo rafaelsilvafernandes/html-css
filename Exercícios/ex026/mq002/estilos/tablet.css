@@ -1,0 +1,6 @@
+body {
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+#tablet {display: inline;}
+#celular {display: none;}

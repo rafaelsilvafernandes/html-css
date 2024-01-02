@@ -1,0 +1,8 @@
+body {
+    background-image: url(../imagens/back-print.jpg);
+}
+
+#impressora {display: inline;}
+#tv {display: none;}
+#pc {display: none;}
+#celular {display: none;}
