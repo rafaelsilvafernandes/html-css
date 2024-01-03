@@ -1,0 +1,7 @@
+body {
+    background-image: url(../../mq002/imagens/cev-landscape.jpg);
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: right;
+    background-size: contain;
+}
